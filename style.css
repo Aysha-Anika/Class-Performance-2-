@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(135, 201, 221);
+}
+
+header{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+} 
+.btn{
+    background-color: rgb(48, 83, 222);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+
+}
+.btn:hover{
+    background-color:rgb(rgb(29, 105, 134)) ;
+    cursor: pointer;
+    transition: 1s;
+}
+#A{
+
+    width: 70%;
+    margin:50px auto;
+}
+#A >h2{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#A >p{
+    text-align: center;
+}
+#B{
+    display: flex;
+    justify-content: center;
+}
+#C{
+ 
+    width: 70%;
+    margin: 0 auto;
+}
+#C img{
+    width: 100%;
+}
+#D{
+    
+    width: 70%;
+    margin: 50px auto;
+}
+#D >h2 {
+    text-align: center;
+    margin-bottom: 25px;
+
+
+}
+#container{
+    display: flex;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: antiquewhite;
+  
+
+
+}
+
+#search-bar >input[type="text"]{
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 60%;
+    background-color: antiquewhite;
+
+
+}
+#search-button{
+    width:30% ;
+    display: flex;
+    justify-content:end;
+
+}
+#E{
+    width: 80%;
+    border: 2px solid olivedrab;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px ;
+
+
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px
+}
+.card-img{
+    background-color:white ;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom:20px;
+
+}
+.card-img:hover{
+    background-color: rgb(185, 183, 180);
+}
+.card-img img{
+    width:100% ;
+    height: 300px;
+}
+.card-title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.card-description{
+    text-align: center;
+    margin-bottom: 20px;
+   color: rgb(22, 18, 13);
+
+}
+.card-price{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+.card-btn{
+    width:50% ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
